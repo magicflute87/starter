@@ -7,3 +7,12 @@
     font-weight: 800;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Kreon bold';
+    src: url('/dist/fonts/Kreon-Bold.ttf') format('truetype'),
+    url('/dist/fonts/kreon-bold-webfont.woff') format('woff'),
+    url('/dist/fonts/kreon-bold-webfont.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}

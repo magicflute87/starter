@@ -1,0 +1,36 @@
+h6, h5, h4, h3, h2, h1 {
+    font-family: 'Kreon bold', cursive;
+    font-weight: bold;
+    line-height: 1;
+    // letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8;
+}
+
+h5 {
+    font-size: 1.6;
+}
+
+h6 {
+    font-size: 1.4;
+}
+
+p, span {
+    font-family: georgia, sans-serif;
+    font-size: 1.2rem;
+    // font-weight: 400;
+}
