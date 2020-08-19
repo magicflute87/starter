@@ -76,17 +76,17 @@ module.exports = {
     },
     
 
-    plugins: [
+    // plugins: [
 
-      new MiniCssExtractPlugin({
-        filename: "bundle.css"
-      }),
-      new copyWebpackPlugin({
-        patterns: [
-          {from: 'src/images', to: 'images'}
-        ]
-      })
-    ],
+    //   new MiniCssExtractPlugin({
+    //     filename: "bundle.css"
+    //   }),
+    //   new copyWebpackPlugin({
+    //     patterns: [
+    //       {from: './src/images', to: 'images'}
+    //     ]
+    //   })
+    // ],
 
   // Default mode for Webpack is production.
   // Depending on mode Webpack will apply different things
