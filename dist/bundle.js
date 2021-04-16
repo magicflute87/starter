@@ -129,7 +129,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction a() {\n  function b() {\n    console.log(myVar);\n  }\n\n  var myVar = 2;\n  b();\n}\n\nvar myVar = 1;\na();\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);\n // checking eslint\n\nvar pTag = document.getElementById('test');\npTag.addEventListener('click', changeToRed);\n\nfunction changeToRed(e) {\n  e.currentTarget.style.backgroundColor = 'red';\n}\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
 
 /***/ }),
 
